@@ -1,0 +1,65 @@
+#==============================================================
+# Debug mode
+#==============================================================
+localhost: http://localhost:3000
+debug : true
+
+
+#==============================================================
+# Maintain mode
+#==============================================================
+maintain : false
+
+
+#==============================================================
+# Disable Form
+#==============================================================
+disable_form : false
+
+
+#==============================================================
+# Administator info
+#==============================================================
+admin_name: KobeEngineer
+admin_email: hello@kxg.io
+
+
+#==============================================================
+# Site settings
+#==============================================================
+site_name         : init.KobeEngineer
+site_title        : init.KobeEngineer 純靠北工程師
+site_description  : MAKE ENGINEER GREAT AGAIN
+site_keywords     : code,hack,programmer,肝臟,加班,無薪假
+site_url          : https://init.kobeengineer.io
+og_type           : website
+og_image          : https://init.kobeengineer.io/images/fb.jpg
+ga_track_id       : UA-56488643-21
+
+
+#==============================================================
+# Facebook APP
+#==============================================================
+fb_app_id: 254573128387355
+fb_app_version: v2.8
+
+
+#==============================================================
+# Build exclude
+#==============================================================
+exclude:
+  - gulpfile.js
+  - package.json
+  - package-lock.json
+  - yarn.lock
+  - node_modules
+  - assets
+  - vue
+
+
+#==============================================================
+# Html compress config
+#==============================================================
+compress_html:
+  clippings: all
+
